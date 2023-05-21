@@ -19,3 +19,20 @@ loginLink.addEventListener('click', ()=> {
 iconClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
 });
+// ------------ Code Wars ------------
+
+const bin = (value) => {
+    if(value === 7) return true;
+
+    let str = value.toString();
+    let res = 0;
+
+    for(let i = 0; str.length <= i; i++){
+        res += Number(str[i])**3;
+    }
+
+    if(res === value)
+      return true;
+}
+
+console.log(bin(153));
