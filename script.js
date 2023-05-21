@@ -19,7 +19,7 @@ loginLink.addEventListener('click', ()=> {
 iconClose.addEventListener('click', () => {
     wrapper.classList.remove('active-popup');
 });
-// ------------ Code Wars ------------
+// ------------ Code Wars ----------------
 
 const bin = (value) => {
     if(value === 7) return true;
